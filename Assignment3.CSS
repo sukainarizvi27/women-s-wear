@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* FIRST CARD PORTION START */
+/* HEADER START  */
+.container{
+    background-color: #eee;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    top: 10px;
+}
+header{
+margin-right: 20px;
+margin-left: 20px;
+line-height: 60px;
+display: flex;
+justify-content: space-between;
+}
+nav{
+    display: flex;
+    box-shadow: 0px 2px 0px 0px;
+    width: 100%;
+}
+h1{
+padding-left: 10px;
+padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+nav a{
+    padding: 20px;
+}
+nav a:hover{
+    text-decoration: underline 5px solid palevioletred;
+}
+ul li a{   
+    text-decoration: none;
+}
+ ul li{
+    list-style: none;
+}
+.div1 a {
+    position: relative;
+    top: 15px;
+    left: 300px;
+    font-size: 25px;
+    color: black;
+}
+i:hover{
+    cursor: pointer;
+}
+.active{
+    color: aqua;
+}
+/* HEADER END  */
+/* OUR SERVICES START */
+.div2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h3{
+    margin-top: 60px;
+}
+h2{
+    font-size: 40px;
+    color: lightskyblue;
+}
+ .div2 span{
+    color: black;
+    font-size: 40px;
+}
+button{
+    width: 100px;
+    background-color: lightskyblue;
+    height: 30px;
+    color: white;
+    border: 3px solid black;
+}
+/* OUR SERVICES END  */
+/* PRODUCT START  */
+.img{
+    height: 315px;
+    width: 370px;
+    position: absolute;
+    right: 8px;
+    top: 80px;
+}
+/* PRODUCT END  */
+/* FIRST CARD PORTION END  */
+/* SECOND CARD PORTION START */
+.container2{
+    background-color: #eee;
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    top: 415px;
+    left: 200px;
+    display: flex;
+}
+.hero{
+    display: flex;
+position: relative;
+left: 350px;
+}
+.span1{
+    color: rgb(29, 81, 150);
+    display: flex;
+}
+.card{
+    margin-top: 25px;
+    position: relative;
+    right: 330px;
+    padding: 30px;
+}
+.img1{
+    position: relative;
+    left: 5px;
+    top: 5px;
+height: 200px;
+width: 200px;
+border-radius: 20px;
+background-color: white;
+}
+.e1{
+    background-color: white;
+    width: 210px;
+    height: 290px;
+}
+.img2{
+    position: relative;
+    left: 5px;
+    top: 5px;
+height: 200px;
+width: 200px;
+border-radius: 20px;
+}
+.e2{
+    background-color: white;
+    width: 210px;
+    height: 290px;
+}
+.img3{
+    position: relative;
+    left: 5px;
+    top: 5px;
+height: 200px;
+width: 200px;
+border-radius: 20px;
+}
+.e3{
+    background-color: white;
+    width: 210px;
+    height: 290px;
+}
+.img4{
+    position: relative;
+    left: 5px;
+    top: 5px;
+height: 200px;
+width: 200px;
+border-radius: 20px;
+}
+.e4{
+    background-color: white;
+    width: 210px;
+    height: 290px;
+}
+.span2{
+    color: yellowgreen;
+    position: relative;
+    top: 7px;
+    left: 50px;
+}
+.b1{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    width: 100px;
+}
+h4{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+/* SECOND CARD PORTION END  */
+/* MEDIA QUERY START  */
+@media (min-width:290px) and (max-width:400px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+/* MEDIA QUERY END  */
